@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>System-monitor</title>
+  <meta http-equiv="Content-Type" content="text/html;charset= utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <script type="text/javascript" src="./js/lib/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="./js/lib/highcharts.js"></script>
+  <script type="text/javascript" src="./js/lib/highcharts-3d.js"></script>
+  <script type="text/javascript" src="./js/sysInfo.js"></script>
+  <link rel= "stylesheet" type = "text/css" href="./css/main.css">
+</head>
+<body>
+ <div id="container">
+     <div id="system">
+          <div id="systemPlatform">
+               <div id="sysPlatformInfo">操作系统:</div>
+               <div id="sysPlatformData"></div>
+          </div>
+          <div id="systemArch">
+               <div id="sysArchInfo">操作系统架构:</div>
+               <div id="sysArchData">x64</div>
+          </div>
+          <div id="processNum">
+               <div id="processNumInfo"> 发行版本:</div>
+               <div id="processNumData">12</div>
+          </div>
+     </div>
+     <div id="cpu">
+        <div id="cpuModel">
+             <div id="cpuModelInfo">CPU 型号:</div>
+             <div id="cpuModelData"></div>
+        </div>
+        <div id="cpuHistory">
+             <div id="cpuHistoryInfo">CPU 历史利用率</div>
+             <div id="cpuHistoryPic"></div>
+        </div>
+         <div id="cpuRatio">
+              <div id="cpu1">
+                   <div id ='cpu1Pic'></div>
+                   <div id="cpu1Name">CPU1</div>
+                   <div id="cpu1Ratio"></div>
+              </div>
+              <div id="cpu2">
+                   <div id ='cpu2Pic'></div>
+                   <div id="cpu2Name">CPU2</div>
+                   <div id="cpu2Ratio"></div>
+              </div>
+              <div id="cpu3">
+                   <div id ='cpu3Pic'></div>
+                   <div id="cpu3Name">CPU3</div>
+                   <div id="cpu3Ratio"></div>
+              </div>
+              <div id="cpu4">
+                   <div id ='cpu4Pic'></div>
+                   <div id="cpu4Name">CPU4</div>
+                   <div id="cpu4Ratio"></div>
+              </div>
+         </div>
+     </div>
+     <div id="memory">
+         <div id="memRatio">
+             <div id="memInfo"> 内存信息</div>
+             <div id ='memPic'>Pic1</div>
+             <div id="memUsedInfo">
+                  <div id="memUsed"></div>
+                  <div id="memUsedRatio"></div>
+                  <div id="memTotal"></div>
+             </div>
+         </div>
+     </div>
+ </div>
+</body>
+</html>

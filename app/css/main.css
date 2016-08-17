@@ -1,0 +1,277 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+}
+
+#container{
+  width:610px;
+  height:325px;
+  margin:auto;
+  background:#EAF0F1 ;
+  border-radius:0.5em;
+}
+
+#system{
+  width:100%;
+  height:27px;
+  line-height: 2em;
+/*  background:#009999;*/
+}
+#cpu{
+  width:100%;
+  height:205px;
+  line-height: 2em;
+/*  background:#009955;*/
+}
+#memory{
+  width:100%;
+  height:93px;
+/*  line-height: 2em;*/
+/*  background:#009900;*/
+}
+#systemPlatform{
+  position:relative;
+  float: left;
+  left:5px;
+}
+#systemArch{
+  position:relative;
+  float: left;
+  left:12%;
+}
+#processNum{
+  position:relative;
+  float: left;
+  left: 22%;
+}
+#sysPlatformInfo{
+  position:relative;
+  float: left;
+}
+#sysPlatformData{
+  position:relative;
+  float: left;
+  left: 10px;
+}
+#sysArchInfo{
+  position:relative;
+  float: left;
+}
+#sysArchData{
+  position:relative;
+  float: left;
+  left: 10px;
+}
+#processNumInfo{
+  position:relative;
+  float: left;
+}
+#processNumData{
+  position:relative;
+  float: left;
+  left: 10px;
+}
+#cpuModel{
+  width:100%;
+  height: 28px;
+  line-height: 2em;
+  display: -webkit-box;
+}
+#cpuModelInfo{
+  position:relative;
+  float: left;
+}
+#cpuModelData{
+  position:relative;
+  float: left;
+  left: 10px;
+}
+#cpuHistory{
+  width:100%;
+  height: 150px;
+  line-height: 2em;
+}
+#cpuHistoryInfo{
+  position:relative;
+  height: 30px;
+  left: 35%;
+}
+#cpuHistoryPic{
+  position:relative;
+  left: 2%;
+  right: 2%;
+  width: 96%;
+  height: 120px;
+}
+#cpuRatio{
+  width:100%;
+  height: 30px;
+  bottom: 1px;
+  line-height: 2em;
+}
+#cpu1{
+  position: relative;
+  padding: 2px;
+  width: 120px;
+  float: left;
+  left: 5%;
+}
+#cpu1Pic{
+  position: relative;
+  float:left;
+  height: 18px;
+  width: 25px;
+  border: 1px;
+  top:5px;
+  background:#7cb5ec;
+}
+#cpu1Name{
+  position: relative;
+  float: left;
+  left: 5px;
+}
+#cpu1Ratio{
+  position: relative;
+  float: left;
+  left: 9px;
+}
+#cpu2{
+  position: relative;
+  padding: 2px;
+  width: 120px;
+  float: left;
+  left: 8%;
+}
+#cpu2Pic{
+  position: relative;
+  float:left;
+  height: 18px;
+  width: 25px;
+  border: 1px;
+  top:5px;
+  background:#434348;
+}
+#cpu2Name{
+  position: relative;
+  float: left;
+  left: 5px;
+}
+#cpu2Ratio{
+  position: relative;
+  float: left;
+  left: 9px;
+}
+#cpu3{
+  position: relative;;
+  padding: 2px;
+  width: 120px;
+  float: left;
+  left: 11%;
+}
+#cpu3Pic{
+  position: relative;
+  float:left;
+  height: 18px;
+  width: 25px;
+  border: 1px;
+  top:5px;
+  background:#90ed7d;
+}
+#cpu3Name{
+  position: relative;
+  float: left;
+  left: 5px;
+}
+#cpu3Ratio{
+  position: relative;
+  float: left;
+  left: 9px;
+}
+#cpu4{
+  position: relative;;
+  padding: 2px;
+  width: 120px;
+  float: left;
+  left: 14%;
+}
+#cpu4Pic{
+  position: relative;
+  float:left;
+  height: 18px;
+  width: 25px;
+  border: 1px;
+  top:5px;
+  background:#f7935c;
+}
+#cpu4Name{
+  position: relative;
+  float: left;
+  left: 10px;
+}
+#cpu4Ratio{
+  position: relative;
+  float: left;
+  left: 20px;
+}
+/*#memHistory{
+  width:100%;
+  line-height: 2em;
+}
+#memHistoryInfo{
+  position:relative;
+  left: 2px;
+}
+#memHistoryPic{
+  position:relative;
+  left: 10px;
+}*/
+
+#memRatio{
+  width: 100%;
+  height: 95px;
+  display: -webkit-box;
+}
+#memInfo{
+  position: relative;
+  float: left;
+  left: 4%;
+  width: 40px;
+  top:10%;
+}
+#memPic{
+  position: relative;
+  float: left;
+  left: 10%;
+  width: 250px;
+  height: 100%;
+}
+#memUsedInfo{
+  position: relative;
+  float:left;
+  left: 10%;
+  width: 250px;
+  height: 100%;
+}
+#memUsed{
+  position: relative;
+  float: left;
+  left: 10px;
+  top: 30%;
+}
+#memUsedRatio{
+  position: relative;
+  float: left;
+  left: 20px;
+  top: 30%;
+}
+#memTotal{
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 30%
+}

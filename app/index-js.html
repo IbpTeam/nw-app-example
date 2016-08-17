@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>simple</title>
+  </head>
+  <body>
+    <p>hello world</p>
+    <p id="predatep"></p>
+    <p id="postdatep"></p>
+    <p id="disp"></p>
+    <script >
+      var predate = new Date();
+      document.getElementById("predatep").innerHTML = predate;
+    console.log(predate);
+     for(var i=1000;i>=0;i--){
+	for(var j = 1000;j>=0;j--){
+		for(var m = 1000;m>=0;m--){
+				var tmp = i*j
+		}
+	}
+     }
+  var postdate = new Date();
+  document.getElementById("postdatep").innerHTML = postdate;
+  var dis = postdate - predate;
+  document.getElementById("disp").innerHTML = dis;
+  console.log(dis);
+    </script>
+  </body>
+</html>
